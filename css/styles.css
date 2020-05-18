@@ -1,0 +1,139 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+font-size: 2.5rem;
+font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+a{
+
+  margin:10px 20px;
+  position: relative;
+  display: inline-block;
+font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.1s;
+}
+a:hover{
+  color: #ffffff;
+  background-color: #66BFBF;
+
+}
+
+
+p{
+    line-height:2;
+}
+
+hr{
+  border: dotted #888888 6px;
+  border-bottom: none;
+
+  width: 4%;
+  margin: 80px auto;
+}
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 110px;
+
+}
+
+.middle-container {
+
+margin: 60px 0 ;
+}
+
+.bottom-container {
+background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+
+.skill-row {
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align:left;
+
+}
+
+
+
+.Game {
+  text-decoration: underline;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 240px;
+  bottom: 300px;
+}
+
+
+.design-img {
+  width: 25%;
+  float: left;
+  margin-right: 18px;
+}
+
+.cric-img{
+  width: 22%;
+  float: right;
+  margin-left: 18px;
+}
+
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 40px;
+}
+.copyright{
+  color: #EAF6F6;
+  padding: 20px 0;
+}
+
+.btn
+{
+  margin: 40px auto 40px;
+   padding:0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 7vh;
+   background-color: #76b39d;
+   font-family: 'Montserrat', sans-serif;
+   width: 13%;
+   border-radius: 15px;
+   color: #ffffff;
+}
